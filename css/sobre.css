@@ -1,0 +1,97 @@
+Body{
+    background-color: darkslategrey;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    
+
+}
+/*
+main{
+    width: 1000px;
+    height: auto;
+    background-color: aqua;
+    float: left;
+    padding-left: 200px;
+}
+*/
+header{
+    height: 50px;
+    background-color:cadetblue;
+    color:aliceblue;
+    border-radius: 10px;
+
+    
+    
+}
+    
+
+
+
+main{
+    
+}
+
+nav{
+    padding-top: 50px
+    
+}
+
+
+ul{
+  list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;/*safari, de´pois mudar e colocar fixed*/
+    position: sticky; /*depois tirar essa linha*/
+    top:0;
+    width: 100%;
+}
+
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+.active{
+    background-color:cadetblue;
+}
+.active2 {
+    background-color:cadetblue;
+}
+
+/*aqui estou fazendo agora, rever depois*/
+h2 {
+    background-color:cadetblue;
+    color:aliceblue;
+    text-align: justify;
+    font-family:serif;
+    font-size: 20px;
+    border-radius: 10px;
+   
+}
+
+
+
+footer {
+    background-color:cadetblue;
+        color: aliceblue;
+        border-radius: 10px;
+
+    
+
+}
